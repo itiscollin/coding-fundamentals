@@ -1,0 +1,17 @@
+table{
+    border-spacing:0;
+    background-color: beige;
+}
+
+th{
+    border-bottom: 1.5px solid;
+    padding: 0;
+}
+td{
+    min-width: 200px;
+    padding: 0;
+}
+.cost{
+   border-spacing: 5px;
+    border-top: 1px solid;
+}
