@@ -1,0 +1,33 @@
+.menu {    
+    /* Style for menu button */
+    position: relative;
+   padding: 2rem;
+
+  }
+  
+  .submenu {    
+    /* Hide submenu */
+    position: absolute;
+    background-color: #f2f2f2;
+    width: 10rem;
+    top: 4rem;
+    display: none;
+
+  }
+  
+  .submenu-item{
+    display: list-item;
+    list-style: none;
+    padding: 1rem;
+
+  }
+
+  .menu:hover .submenu {    
+
+    
+    display: block;
+  }
+
+  .submenu-item:hover{
+    background-color: #e2e2e2;
+  }
