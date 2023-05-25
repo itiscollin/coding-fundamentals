@@ -1,0 +1,70 @@
+body {
+    /* set default background color */
+    background-color: slategray;
+    color: white;
+  }
+  .mobile{
+    display: none;
+}
+.tablet{
+    display: none;
+}
+.desktop{
+    display: none;
+}
+  
+  @media (min-width: 300px) {
+
+    body{
+        background-color: red;
+    }
+    .mobile{
+        display: block;
+    }
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    /*
+      - show tablet div
+      - hide mobile and desktop divs
+      - change background color
+    */
+    body{
+        background-color: green;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /*
+      - show desktop div
+      - hide mobile and tablet divs
+      - change background color
+    */
+    body{
+        background-color: blue;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+  }
