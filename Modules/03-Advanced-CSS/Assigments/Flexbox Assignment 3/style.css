@@ -1,0 +1,51 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+footer{
+
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 5vh;
+}
+
+.footer-container{
+    width: 50vw;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0%;
+}
+
+li{
+    list-style-type: none;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+.socmed-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo{
+    transition: 0.1s;
+    padding: 10px;
+}
+.logo:hover{
+    transform: scale(1.1,1.1);
+}
