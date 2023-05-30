@@ -1,0 +1,60 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    margin: 0%;
+}
+li{
+    color: rgb(219, 143, 2);
+    font-weight: bolder;
+    list-style: none;
+    padding: 0.1em;
+}
+
+.centering-div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    padding: 3vw;
+   box-shadow: 2px 1px gainsboro, 3px 1.5px rgb(211, 211, 211);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.customer-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1vw;
+    padding: 1vw;
+    width: max-content;
+    
+}
+
+.customer-info img{
+    justify-self: normal;
+    border-radius: 100px;
+   width: 100px;
+   height: 100px;
+   
+}
+
+.name-review{
+    padding: 1vw;
+    margin-left: 10px;
+}
+
+.review{
+    padding: 10px;
+    margin: 12px;
+}
