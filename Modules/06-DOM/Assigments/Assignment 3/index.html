@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 - Slide Over</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <button id="registerBtn" type="button">Register</button>
+        <div class="bg-backdrop hidden"></div>
+        <div class="slide-over-container hidden">
+            <div class="slide-over-panel">
+                <div class="panel-container">
+                    <div class="panel-header">
+                        <h2 class="panel-title" id="slide-over-title">Panel title</h2>
+
+                        <button type="button" class="close-button">
+                            <svg class="x-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="panel-body">
+                        <div class="content-container">
+                            <div class="content-outline"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
