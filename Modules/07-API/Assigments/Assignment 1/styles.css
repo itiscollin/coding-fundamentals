@@ -1,0 +1,35 @@
+.container {
+    height: 40rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: flex-start;
+   width: 50%;
+}
+.quote-content-container{
+    margin: 4rem;
+}
+.button-container{
+    height: 3rem;
+}
+
+button{
+    height: 2rem;
+    width: 8rem;
+    border: 1px;
+    border-radius: 4px;
+    background-color: #4285F4;
+    color: white;
+}
+
+button:active{
+    background-color: #235ab1;
+}
+
+
