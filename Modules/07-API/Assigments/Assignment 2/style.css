@@ -1,0 +1,35 @@
+
+.search-section{
+    margin: 1rem;
+}
+
+.border{
+margin: 1rem;
+    width: calc(100% - 2rem);
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#profile-picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#profile-picture img{
+    width: 8rem;
+    height: 100%;
+    border-radius: 10rem;
+}
+
+.profile-bio{
+    width: 100%;
+}
