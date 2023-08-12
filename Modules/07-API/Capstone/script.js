@@ -25,14 +25,17 @@ window.addEventListener("load", async(e)=>{
         feeds.innerHTML += 
         `<div class="content-feeds">
         
-        <img class="catPictures"src= "${imageUrl}" onerror="brokenImg.call(this)">
-        <div class="cat-description">
-        <h3>${catArray[i].name}</h3>
-        <p>${catDescription}</p>
-
-        </div>
-        </div>
+            <div class="cat-profile">
+            <img class="catPictures"src= "${imageUrl}" onerror="brokenImg.call(this)">
         
+                <div class="cat-description">
+                <h3>${catArray[i].name}</h3>
+                <p>${catDescription}</p>
+                </div>
+            </div>
+            <button type="button">Profile</button>
+        </div>
+            
         `
     }
 

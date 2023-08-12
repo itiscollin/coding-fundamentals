@@ -1,23 +1,31 @@
 
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 img{
    width: 100%;
     height: 25rem;
     
 }
+.feeds-container{
+    display: flex;
+    justify-content: center;
+}
 
 .feeds{
-    max-width: 100vw;
+    max-width: 1440px;
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    align-self: center;
 
 }
 
 .content-feeds{
-    height: 40rem;
+    height: 45rem;
     width: 25rem;
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 0 0;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -25,16 +33,33 @@ img{
     box-shadow: -2px 18px 47px -5px rgba(0,0,0,0.15);
     -webkit-box-shadow: -2px 18px 47px -5px rgba(0,0,0,0.15);
     -moz-box-shadow: -2px 18px 47px -5px rgba(0,0,0,0.15);
- 
+    justify-content: space-between;
 }
 
 .cat-description{
     padding: 1rem;
-    
+}
+
+.cat-description p {
+    font-weight: 200;
 }
 
 h1{
     background-color: #010101;
     color: rgb(230, 230, 230);
     padding: 1rem;
+}
+button{
+    width: 100%;
+    height: 3rem;
+    border: none;
+    background-color: #1b1b1b;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+}
+
+button:active {
+    color: #fbfbfb;
+    background-color: #a26b3b;   
 }
