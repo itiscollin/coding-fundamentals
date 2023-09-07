@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>To-do List</h1>
+
+        <form class="add-todo-form" onsubmit="addTodo()">
+            <input type="text" placeholder="Enter a new task...">
+            <button type="submit">Add Task</button>
+        </form>
+
+        <input type="radio" name="filer" id="filter-all" checked>
+        <label for="filter-all">All</label>
+
+        <input type="radio" name="filer" id="filter-priority" >
+        <label for="filter-priority">Priority</label>
+
+        <input type="radio" name="filer" id="filter-non-priority">
+        <label for="filter-non-priority">Non Priority</label>
+
+        <input type="radio" name="filer" id="filter-completed">
+        <label for="filter-completed">Completed</label>
+
+        <div class="task-list">
+        </div>
+    </div>
+</body>
+
+</html>
